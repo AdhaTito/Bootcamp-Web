@@ -1,0 +1,98 @@
+:root{
+    --mainColor : #9607C9;
+    --secondaryColor : #2756FE;
+    --asscenColor : #E0E2FA;
+    --default : #fff;
+}
+
+body {
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 800px;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Navbar */
+.nav1 {
+    background : linear-gradient(to right, #9607C9 80%, #7A3AE0 );
+}
+
+
+/* Hero */
+#hero h3{
+    margin-top: 50px;
+}
+
+#hero .btn {
+    background-color: var(--secondaryColor);
+    border-radius: 10px;
+    color: var(--default);
+}
+
+#hero .btn:hover {
+    background-color: var(--default);
+    border-color: var(--secondaryColor);
+    color: var(--secondaryColor);
+}
+
+/* Keahlian */
+#keahlian {
+    background-color: var(--asscenColor);
+    color: var(--secondaryColor);
+    margin-top: 250px;
+    min-height: 400px;
+}
+
+/* Card Keahlian */
+.card {
+    background-color: var(--default);
+    min-height: 130px;
+}
+
+.card:hover {
+    background: linear-gradient(to right, #9607C9 80%, #7A3AE0 );
+    color: var(--default);
+}
+
+.card img {
+    margin-left: -5px;
+}
+
+/* Company section */
+#company {
+    background-color: var(--default);
+    color: var(--secondaryColor);
+    min-height: 400px;
+}
+
+#company img {
+    width: 200px;
+    margin: 15px;
+    margin-bottom: 100px;
+}
+
+/* Line Biru */
+#line-biru {
+    background-color: var(--secondaryColor);
+    color: var(--default);
+    min-height: 160px;
+}
+
+/* garis vertical box biru */
+.vertical-line {
+    background-color: var(--default);
+    height: 120px;
+    width: 5px;
+    margin-top: -60px;
+}
+
+#line-bir .vertical-line {
+    background-color: var(--default);
+    height: 100px;
+    width: 5px;
+}
+
+#bg-keterangan {
+    background-color: var(--asscenColor);
+    min-height: 900px;
+}
