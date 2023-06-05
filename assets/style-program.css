@@ -1,0 +1,220 @@
+:root{
+    --mainColor : #9607C9;
+    --secondaryColor : #2756FE;
+    --asscenColor : #E0E2FA;
+    --default : #fff;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 800px;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Button 1*/
+
+#keahlian1 .btn {
+    background-color: var(--secondaryColor);
+    border-radius: 10px;
+    color: var(--default);
+}
+
+#keahlian1 .btn:hover {
+    background-color: var(--default);
+    border-color: var(--secondaryColor);
+    color: var(--secondaryColor);
+}
+
+/* Button 2 */
+
+#frontend .btn {
+    background-color: var(--secondaryColor);
+    border-radius: 10px;
+    border-width: 3px;
+    border-color: var(--secondaryColor);
+    color: var(--default);
+}
+
+#frontend .btn:hover {
+    background-color: var(--default);
+    border-width: 3px;
+    border-color: var(--secondaryColor);
+    color: var(--secondaryColor);
+}
+
+/* Button 3 */
+
+#backend .btn {
+    background-color: var(--secondaryColor);
+    border-radius: 10px;
+    border-width: 3px;
+    border-color: var(--secondaryColor);
+    color: var(--default);
+}
+
+#backend .btn:hover {
+    background-color: var(--default);
+    border-width: 3px;
+    border-color: var(--secondaryColor);
+    color: var(--secondaryColor);
+}
+
+/* Navbar */
+.nav1 {
+    background : linear-gradient(to right, #9607C9 80%, #7A3AE0 );
+}
+
+
+/* keahlian1 */
+#keahlian1 {
+    margin-top: 100px;
+    min-height: 800px;
+}
+
+/* Card */
+#keahlian1 .rounded {
+    border-bottom-right-radius: 200px !important;
+}
+
+.card-text {
+    text-align: justify;
+}
+
+#keahlian1 .card{
+    background: linear-gradient(to right, #E0E2FA 80%, #fff );
+}
+
+#keahlian1 .card:hover {
+    background: linear-gradient(to right, #9607C9 80%, #7A3AE0 );
+    color: var(--default);
+    border-radius: 10px;
+    border-color: var(--secondaryColor);
+}
+
+/* Box1 */
+
+#keahlian1 .box1 {
+    width: 1050px;
+    height: 170px;
+    margin-top: 100px;
+    margin-left: 100px;
+    border-radius: 30px ;
+    border-color: var(--secondaryColor);
+    background: linear-gradient(to top, #9607C9 10%, #2756FE );
+}
+
+
+/* Keahlian Frontend */
+#frontend {
+    width: 100%;
+    min-height: 600px;
+    background-color: var(--default);
+    border-top-left-radius: 80%;
+    border-end-end-radius: 60%;
+}
+
+/* Card */
+#frontend .rounded {
+    border-top-right-radius: 250px !important;
+}
+
+.card-text {
+    text-align: justify;
+}
+
+#frontend .card{
+    background: linear-gradient(to right, #E0E2FA 80%, #fff );
+}
+
+#frontend .card:hover {
+    background: linear-gradient(to right, #9607C9 80%, #7A3AE0 );
+    color: var(--default);
+    border-radius: 10px;
+    border-color: var(--secondaryColor);
+}
+
+/* Box1 */
+
+#frontend .box1 {
+    width: 1050px;
+    height: 170px;
+    margin-top: 100px;
+    margin-left: 100px;
+    border-radius: 30px ;
+    border-color: var(--secondaryColor);
+    background: linear-gradient(to top, #2756FE 10%, #9607C9 );
+}
+
+#frontend h2 a {
+    color: var(--mainColor);
+    text-decoration: none;
+}
+
+/* Keahlian Backend */
+#backend {
+    min-height: 500px;
+}
+
+#backend .rounded {
+    border-bottom-left-radius:  200px !important;
+}
+
+.card-text {
+    text-align: justify;
+}
+
+#backend .card{
+    background: linear-gradient(to right, #E0E2FA 80%, #fff );
+}
+
+#backend .card:hover {
+    background: linear-gradient(to right, #9607C9 80%, #7A3AE0 );
+    color: var(--default);
+    border-radius: 10px;
+    border-color: var(--secondaryColor);
+}
+
+/* Box1 */
+
+#backend .box1 {
+    width: 1050px;
+    height: 170px;
+    margin-top: 100px;
+    margin-left: 100px;
+    border-radius: 30px ;
+    border-color: var(--secondaryColor);
+    background: linear-gradient(to top, #2756FE 10%, #9607C9 );
+}
+
+/* contact */
+#contact {
+    
+    margin-top: 50px;
+    min-height: 300px;
+    background-color: #4A4848;
+}
+
+/* footer */
+#footer{
+    min-height: 50px;
+    background-color: #000;
+    color: var(--mainColor);
+}
+
+#footer p a{
+    color: var(--secondaryColor);
+    text-decoration: none;
+}
+
+
+
+
+
+
+

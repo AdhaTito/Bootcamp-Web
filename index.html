@@ -17,19 +17,26 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;500&family=Ubuntu:wght@300;400;700&display=swap"
         rel="stylesheet">
-
+    <!-- Google Maps -->
+    <link rel="apple-touch-icon" href="img/apple-touch-icon.png">
+    <link rel="shortcut icon" type="image/x-icon" href="img/icon/favicon.ico">
+    <!-- Place favicon.ico in the root directory -->
+    <!-- all css here -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <script src="js/vendor/modernizr-2.8.3.min.js"></script>
 </head>
 
 <body background="/assets/images/bgweb.png">
     <!-- Navbar -->
-    <div class="container-sm sticky-top ">
+    <div class="container sticky-top ">
         <nav class="navbar navbar-dark navbar-expand-lg shadow rounded-2 nav1">
             <div class="col-lg-10 col-sm-12">
-                <div class="nav justify-content-center">
-                    <a class="navbar-brand ms-5" href="#">
+                <div class="nav justify-content-between ms-lg-5 ms-sm-4">
+                    <a class="navbar-brand ms-4" href="#">
                         <img src="/assets/images/iconweb.png" width="45px" alt="">
+                        <a class="navbar-brand mt-1" href="#">Camp Coding</a>
                     </a>
-                    <a class="navbar-brand p-2" href="#">Camp Coding</a>
                     <div class="row">
                         <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                             data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
@@ -40,10 +47,10 @@
                     <div class="collapse navbar-collapse" id="navbarNavDropdown">
                         <ul class="navbar-nav ms-auto">
                             <li class="nav-item">
-                                <a class="nav-link active " aria-current="page" href="#">Home</a>
+                                <a class="nav-link active " aria-current="page" href="#hero">Home</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Program</a>
+                                <a class="nav-link" href="/program.html">Program</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="#">About</a>
@@ -53,14 +60,14 @@
                                     aria-expanded="false">
                                     Location
                                 </a>
-                                <ul class="dropdown-menu">
-                                    <li><a class="dropdown-item" href="#">Action</a></li>
-                                    <li><a class="dropdown-item" href="#">Another action</a></li>
-                                    <li><a class="dropdown-item " href="#">Something else here</a></li>
+                                <ul class="dropdown-menu nav1">
+                                    <li><a class="dropdown-item" href="#">Pancoran, Jakarta Selatan</a></li>
+                                    <li><a class="dropdown-item" href="#"> Jl. Wijaya Kusuma, Bandung</a></li>
+                                    <li><a class="dropdown-item " href="#">Harapan Indah, Bekasi</a></li>
                                 </ul>
                             </li>
-                            <button type="button" class="btn btn-primary ms-2">Login</button>
-                            <button type="button" class="btn btn-outline-light ms-2">Daftar</button>
+                            <!-- <button type="button" class="btn btn-primary ms-2">Login</button>
+                            <button type="button" class="btn btn-outline-light ms-2">Daftar</button> -->
                         </ul>
                     </div>
                 </div>
@@ -73,25 +80,25 @@
     <section id="hero">
         <div class="container text-white mt-5">
             <div class="row justify-content-center">
-                <div class="col-lg-10 col-sm-12">
+                <div class="col-10">
                     <div class="row">
-                        <div class="col-lg-6 col-sm-8">
+                        <div class="col-8">
                             <h1 class="fw-bold">98% Lulus Dapat Kerja</h1>
-                            <h5 class="fw-light mb-lg-5">1600+ lulusan sukses jadi talenta digital dengan gaji di atas
-                                standar
-                                industri. Dapatkan diskon Rp2 juta untuk dapatkan skill impianmu!</h5>
+                            <h4 class="fw-light mb-lg-5">1600+ lulusan sukses jadi talenta digital dengan gaji di
+                                atas standar industri. Dapatkan diskon Rp2 juta untuk dapatkan skill impianmu!</h4>
                         </div>
-                        <div class="col-lg-6">
-                            <div class="position-absolute bottom-0 end-0">
-                                <img src="/assets/images/hero.png" class="img-fluid" width="800px" alt="">
-                            </div>
-                        </div>
-                        <div class="col-lg-8 col-sm-8 mt-lg-5">
+                        <div class="w-100"></div>
+                        <div class="col-8 col-lg-12 col-sm-4">
                             <h3 class="fw-bold ">Masih Ragu?? Hubungi Kami Langsung</h3>
-                            <button class="btn btn-primary btn-lg ">Konsultasi Gratis</button>
+                            <button class="btn button btn-primary btn-lg mb-5 fw-semibold">Konsultasi Gratis</button>
                         </div>
                     </div>
                 </div>
+            </div>
+        </div>
+        <div class="position-relative">
+            <div class="position-absolute bottom-0 end-0">
+                <img src="/assets/images/hero.png" class="img-fluid" width="700px" alt="">
             </div>
         </div>
     </section>
@@ -104,32 +111,32 @@
                 <div class="row justify-content-center">
                     <div class="col-lg-10 col-md-12">
                         <div class="text-center">
-                            <h1 class="fw-bold mt-5 mb-5">Pilih keahlian yang Kamu inginkan</h1>
+                            <h1 class="fw-bold mt-5 mb-5">Program Keahlian Di Camp Coding</h1>
                             <div class="row ">
                                 <div class="col-sm-4 mt-4">
                                     <div class="card mx-auto rounded-3 border-white">
-                                        <img class="d-flex position-absolute top-0 bottom-0 " width="127px"
-                                            src="/assets/images/image 5.svg" alt="">
+                                        <img class="d-flex position-absolute top-0 bottom-0 " width="128px"
+                                            src="/assets/images/ilustrasi 11.png" alt="">
                                         <div class="card-body ms-5 text-center">
-                                            <h3 class="ms-5">Fullstack Developer</h3>
+                                            <h3 class="ms-5 fw-bold">Full Stack Developer</h3>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="col-sm-4 mt-4">
                                     <div class="card mx-auto rounded-3 border-white">
                                         <img class="d-flex position-absolute top-0 bottom-0 " width="128px"
-                                            src="/assets/images/image 7.svg" alt="">
+                                            src="/assets/images/ilustrasi 12.png" alt="">
                                         <div class="card-body ms-5 text-center">
-                                            <h3 class="ms-5">Front End Developer</h3>
+                                            <h3 class="ms-5 fw-bold">Front End Developer</h3>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="col-sm-4 mt-4 mb-4">
                                     <div class="card mx-auto rounded-3 border-white">
                                         <img class="d-flex position-absolute top-0 bottom-0" width="136px"
-                                            src="/assets/images/ilustrasi 11.svg" alt="">
+                                            src="/assets/images/ilustrasi 13.png" alt="">
                                         <div class="card-body ms-5 text-center">
-                                            <h3 class="ms-5">Back End Developer</h3>
+                                            <h3 class="ms-5 fw-bold">Back End Developer</h3>
                                         </div>
                                     </div>
                                 </div>
@@ -186,7 +193,146 @@
                             </div>
                             <div class="col-4 ">
                                 <h4 class="fw-bold ">100++ Hiring Partners</h4>
-                                <div class="vertical-line"></hr>
+                                <div class="vertical-line">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+
+    <section id="conten">
+        <div class="container-fluid">
+            <div class="container">
+                <div class="row g-0">
+                    <div class="col-6">
+                        <img src="/assets/images/gmbr.svg" class="mt-4 img-fluid" width="650px" alt="">
+                    </div>
+                    <div class="col-6">
+                        <h2 class="mt-5 fw-bold">Kenapa Camp Coding Menjadi Pelatihan Coding Bootcamp Terbaik</h2>
+                        <p class="fw-bold mt-3 p1">Camp Coding sudah teruji menghasilkan para lulusan yang kompeten di
+                            industri melalui
+                            program bootcamp.</p>
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-6 col-sm-6 fw-bold"> <img src="/assets/images/Vector.jpg"> Belajar
+                                    Intensif
+                                    <div class="p1 fw-normal">
+                                        <p>Siswa difokuskan belajar secara intensif dari pukul 09.00 - 18.00 WIB untuk
+                                            menjadi Full Stack Developer atau Data Scientist.</p>
+                                    </div>
+                                </div>
+                                <div class="col-6 col-sm-6 fw-bold"> <img src="/assets/images/Vector3.png"> Growth
+                                    Mindset
+                                    <div class="p1 fw-normal">
+                                        <p>Setiap siswa dibekali dengan growth mindset untuk bisa berkembang di mana pun
+                                            mereka berkarir.</p>
+                                    </div>
+                                </div>
+                                <!-- Force next columns to break to new line -->
+                                <div class="w-100"></div>
+                                <div class="col-6 col-sm-6 fw-bold"> <img src="/assets/images/Vector2.png"> Hiring
+                                    Partners
+                                    <div class="p1 fw-normal">
+                                        <p>Kami bekerja sama dengan 350+ perusahaan yang siap merekrut lulusan program
+                                            bootcamp kami.</p>
+                                    </div>
+                                </div>
+                                <div class="col-6 col-sm-6 fw-bold"> <img src="/assets/images/Vector4.png"> Relevant
+                                    Skill
+                                    <div class="p1 fw-normal">
+                                        <p>Kurikulum dirancang dan selalu disesuaikan dengan kebutuhan dunia kerja.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container mt-5">
+            <div class="row">
+                <div class="col-6 ">
+                    <h1 class="fw-bold mt-5">Pilih Program Belajar Mu</h1>
+                    <div class="col-9">
+                        <p class="p1 fw-bold">Kami memberikan program pembelajaran yang sesuai dengan kebutuhan di
+                            industri
+                            Digital</p>
+                    </div>
+                </div>
+                <div class="col-6 ">
+                    <div class="card-1 text-white ">
+                        <div class="position-relative">
+                            <img class="position-absolute top-100 start-0 translate-middle-y"
+                                src="/assets/images/conten4.png" width="200px" alt="">
+                        </div>
+                        <div class="text-center">
+                            <h2 class="fw-bold ms-5 py-4">Bootcamp</h2>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Force next columns to break to new line -->
+                <div class="w-100"></div>
+
+                <div class="col-6 ">
+                    <div class="card-3 mt-5 text-white">
+                        <div class="position-relative">
+                            <img class="position-absolute top-100 start-0 translate-middle-y"
+                                src="/assets/images/conten.png" width="200px" alt="">
+                        </div>
+                        <div class="text-center">
+                            <h2 class="fw-bold ms-5 py-2">Profesional <br> Development</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6 ">
+                    <div class="card-2 mt-5 text-white">
+                        <div class="position-relative">
+                            <img class="position-absolute top-100 start-0 translate-middle-y"
+                                src="/assets/images/conten3.png" width="140px" alt="">
+                        </div>
+                        <div class="text-center">
+                            <h2 class="fw-bold ms-5 py-4">Corporate Program</h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-lg-6 col-ms-2">
+                <div class="position-relative mt-5">
+                    <div class="position-absolute top-50 start-0 translate-middle-y">
+                        <div class="kotak-samping1 text-white mb-5">
+                            <div class="py-1 ms-5">
+                                <div class="col-12">
+                                    <h2 class="fw-bold ms-5">Mulai Karir dibidang Teknologi </h2>
+                                </div>
+                                <div class="col-9">
+                                    <p class="ms-5">Saatnya membangun karir industri digital Mu. jadilah talenta digital
+                                        yang kompeten bersama Camp Coding.</p>
+                                </div>
+                                <button class="btn btn-light btn-lg ms-5 text-primary fw-bold">Daftar Sekarang</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-6 col-ms-2">
+                <div class="position-relative mt-5">
+                    <div class="position-absolute top-50 end-0 translate-middle-y">
+                        <div class="kotak-samping2 text-white mb-5">
+                            <div class="py-1 ms-5">
+                                <div class="col-12">
+                                    <h2 class="fw-bold ms-5">Konsultasi bersama Camp Coding</h2>
+                                </div>
+                                <div class="col-9">
+                                    <p class="ms-5">Tim Admissions kami siap membantu mewujudkan karirmu.</p>
+                                </div>
+                                <button class="btn btn-light btn-lg ms-5 text-primary fw-bold">Hubungi Kami</button>
                             </div>
                         </div>
                     </div>
@@ -194,16 +340,182 @@
             </div>
         </div>
     </section>
+    <!-- End Conten -->
 
-<section id="bg-keterangan">
+    <!-- Map -->
+    <section id="map">
+        <div class="text-center ">
+            <div class="row justify-content-center">
+                <h1 class="mb-5 fw-bold">Bootcamp Location</h1>
+                <h3 class="text-primary mb-2"> <img src="/assets/images/gps.png" style="width: 2rem; " alt=""> Lokasi
+                    Berada di Lantai 4 Lippo Mall Kemang, Jakarta Selatan</h3>
+            </div>
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.018767090281!2d106.81028507522811!3d-6.261257893727304!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f14d3d73e311%3A0x7b35536a57b28499!2sLippo%20Mall%20Kemang!5e0!3m2!1sid!2sid!4v1685527535420!5m2!1sid!2sid"
+                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade" class="map border border-5 mb-4"></iframe>
+        </div>
+    </section>
+    <!-- End Map -->
 
-</section>
+    <!-- Start FAQ -->
+    <section id="FAQ">
+        <div class="container">
+            <div class="row">
+                <div class="text-center text-primary mt-5 mb-5">
+                    <h1 class="fw-semibold">Frequently Asked Question</h1>
+                </div>
+                <div class="accordion" id="accordionExample">
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingOne">
+                            <button class="accordion-button fw-bolder" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                Apakah lulus dari bootcamp bisa dapat kerja?
+                            </button>
+                        </h2>
+                        <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                            data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <p class="fs-6 fw-light">Kesuksesan dalam mendapatkan pekerjaan didukung oleh kemampuan
+                                    dan kompetensi setiap
+                                    siswa. Kami mendorong siswa untuk mengikuti dan menyelesaikan program pelatihan
+                                    dengan
+                                    sebaik-baiknya. Kami akan berusaha membantu para siswa untuk mendapatkan pekerjaan.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingTwo">
+                            <button class="accordion-button collapsed fw-bolder" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                Apakah belajar di Camp Coding mendapat sertifikat?
+                            </button>
+                        </h2>
+                        <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                            data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <p class="fs-6 fw-light"><strong>Camp Coding</strong> memberikan sertifikat digital bagi
+                                    para siswa/peserta yang
+                                    berhasil menyelesaikan program pembelajaran.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingThree">
+                            <button class="accordion-button collapsed fw-bolder" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                Apakah belajar di Camp Coding harus punya latar belakang IT?
+                            </button>
+                        </h2>
+                        <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                            data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <p class="fs-6 fw-light"><strong>Tidak</strong>, kami akan memberikan pelatihan bagi
+                                    semua calon peserta dengan
+                                    apa pun latar belakang pendidikan yang dimiliki.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End FAQ -->
+
+    <!-- Footer -->
+    <section id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="col-6 col-sm-4">
+                    <div class="mt-5">
+                        <img src="/assets/images/iconweb.png" width="40px" alt="" class="me-2">
+                        <a class="navbar-brand fs-5 fw-normal text-white">Camp Coding</a>
+                    </div>
+                </div>
+                <!-- Force next columns to break to new line at md breakpoint and up -->
+                <div class="w-100 d-none d-md-block"></div>
+
+                <div class="col-6 col-sm-4">
+                    <div class="mt-4">
+                        <img src="/assets/images/email.png" width="20px" alt="" class="me-3 ms-2">
+                        <a class="navbar-brand fs-6 fw-light text-white">camp@coding.com</a>
+                    </div>
+                </div>
+                <!-- Force next columns to break to new line at md breakpoint and up -->
+                <div class="w-100 d-none d-md-block"></div>
+
+                <div class="col-6 col-sm-4">
+                    <div class="mt-2">
+                        <img src="/assets/images/telp.png" width="20px" alt="" class="me-3 ms-2">
+                        <a class="navbar-brand fs-6 fw-light text-white">+(62) 21 8080 9889</a>
+                    </div>
+                </div>
+                <!-- Force next columns to break to new line at md breakpoint and up -->
+                <div class="w-100 d-none d-md-block"></div>
+
+                <div class="col-6 col-sm-4">
+                    <div class="my-3 mt-5">
+                        <img src="/assets/images/instagram.png" width="30px" alt="" class="me-3 ms-2">
+                        <img src="/assets/images/twitter.png" width="30px" alt="" class="me-3 ms-2">
+                        <img src="/assets/images/youtube.png" width="30px" alt="" class="me-3 ms-2">
+                    </div>
+                </div>
+
+                <!-- <div class="col-md-6 ms-auto">
+                    <h2>Contact Me</h2>
+                </div>
+                <div class="col-md-6 ms-auto">
+                    <form>
+                        <div class="col-md-6">
+                            <div class="mb-3">
+                                <label for="name" class="form-label">Nama Lengkap</label>
+                                <input type="text" class="form-control" id="name" aria-describedby="emailHelp">
+                            </div>
+                            <div class="mb-3">
+                                <label for="email" class="form-label">Email</label>
+                                <input type="email" class="form-control" id="email" aria-describedby="emailHelp">
+                            </div>
+                            <div class="mb-3">
+                                <label for="exampleFormControlTextarea1" class="form-label">Pesan</label>
+                                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary">Submit</button>
+                        </div>
+                    </form>
+                </div> -->
+            </div>
+        </div>
+    </section>
+
+    <!-- footer -->
+    <section id="footer">
+        <div class="container">
+            <div class="row">
+                <div class="text-center">
+                    <p class="text-light py-2">© 2023, Create By <a class="fw-bolder">Adha Mastito</a></p>
+                </div>
+            </div>
+        </div>
+    </section>
+
 
     <!-- Js Bootstrap -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous">
     </script>
 
+    <!-- Button Animation -->
+    <script>
+        const button = document.querySelector(".button");
+        button.addEventListener("click", (e) => {
+            e.preventDefault;
+            button.classList.add("animate");
+            setTimeout(() => {
+                button.classList.remove("animate");
+            }, 600);
+        });
+    </script>
 </body>
 
 </html>

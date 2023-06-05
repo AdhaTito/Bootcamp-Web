@@ -5,9 +5,14 @@
     --default : #fff;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
-    background-size: cover;
+    background-size: contain;
     background-repeat: no-repeat;
+    /* background-position: center; */
     min-height: 800px;
     font-family: 'Poppins', sans-serif;
 }
@@ -19,8 +24,13 @@ body {
 
 
 /* Hero */
-#hero h3{
-    margin-top: 50px;
+#hero {
+    /* margin-top: 500px; */
+    min-height: 300px;
+}
+
+#hero button{
+    margin-bottom: 400px !important;
 }
 
 #hero .btn {
@@ -39,7 +49,6 @@ body {
 #keahlian {
     background-color: var(--asscenColor);
     color: var(--secondaryColor);
-    margin-top: 250px;
     min-height: 400px;
 }
 
@@ -47,6 +56,7 @@ body {
 .card {
     background-color: var(--default);
     min-height: 130px;
+    transition: background-color 0.3s ease;
 }
 
 .card:hover {
@@ -54,9 +64,6 @@ body {
     color: var(--default);
 }
 
-.card img {
-    margin-left: -5px;
-}
 
 /* Company section */
 #company {
@@ -92,7 +99,199 @@ body {
     width: 5px;
 }
 
-#bg-keterangan {
+#conten {
     background-color: var(--asscenColor);
-    min-height: 900px;
+    color: var(--secondaryColor);
+    min-height: 1400px;
+}
+
+#conten .p1{
+    color: var(--mainColor);
+}
+
+
+
+#conten .card-1{
+    min-height: 100px;
+    width: 600px;
+    margin-top: 50px !important;
+    border-top-right-radius:50px ;
+    background-color: var(--secondaryColor);
+    
+}
+
+#conten .card-2{
+    min-height: 100px;
+    width: 600px;
+    margin-top: 100px !important;
+    border-end-end-radius: 50px;
+    background-color: var(--secondaryColor);
+}
+
+#conten .card-3{
+    min-height: 100px;
+    width: 600px;
+    margin-top: 100px !important;
+    border-end-start-radius: 50px;
+    background-color: var(--secondaryColor);
+}
+
+/* Kotak Samping */
+.kotak-samping1 {
+    margin-top: 500px;
+    height: 250px;
+    width: 750px !important;
+    border-top-right-radius: 70px;
+    border-end-end-radius: 70px;
+    background-color: var(--secondaryColor);
+}
+
+.kotak-samping2 {
+    margin-top: 500px;
+    height: 250px;
+    width: 750px !important;
+    border-top-left-radius: 70px;
+    border-bottom-left-radius: 70px;
+    background-color: var(--mainColor);
+}
+
+#conten h2{
+    margin-top: 50px !important;
+}
+
+#conten .btn{
+    
+    background-color: var(--default);
+    color: var(--secondaryColor);
+}
+
+#conten .btn:hover{
+    border-color: var(--default);
+    border-width: 3px;
+    background-color: var(--secondaryColor);
+    color: var(--default) !important;
+}
+
+/* Map */
+#map {
+    min-height: 600px;
+    background-color: var(--asscenColor);
+    color: var(--mainColor);
+
+}
+
+.map{
+
+    width: 1500px;
+    border-color: var(--default) !important;
+}
+
+/* FAQ */
+#FAQ {
+    background-color: var(--default);
+    min-height: 400px;
+}
+
+/* contact */
+#contact {
+    
+    margin-top: 50px;
+    min-height: 300px;
+    background-color: #4A4848;
+}
+
+/* footer */
+#footer{
+    min-height: 50px;
+    background-color: #000;
+    color: var(--mainColor);
+}
+
+#footer p a{
+    color: var(--secondaryColor);
+    text-decoration: none;
+}
+
+/* button test */
+.button {
+    
+    position: relative;
+    padding: 10px 22px;
+    border-radius: 6px;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    background-color: var(--secondaryColor);
+    transition: all 0.2s ease;
+}
+.button:active {
+    transform: scale(0.96);
+}
+.button:before,
+.button:after {
+    position: absolute;
+    content: "";
+    width: 150%;
+    left: 50%;
+    height: 100%;
+    transform: translateX(-50%);
+    z-index: -1000;
+    background-repeat: no-repeat;
+}
+.button.animate::before {
+    top: -70%;
+    background-image: radial-gradient(circle, var(--secondaryColor) 20%, transparent 20%),
+    radial-gradient(circle, transparent 20%, var(--secondaryColor) 20%, transparent 30%),
+    radial-gradient(circle, var(--secondaryColor) 20%, transparent 20%),
+    radial-gradient(circle, var(--secondaryColor) 20%, transparent 20%),
+    radial-gradient(circle, transparent 10%, var(--secondaryColor) 15%, transparent 20%),
+    radial-gradient(circle, var(--secondaryColor) 20%, transparent 20%),
+    radial-gradient(circle, var(--secondaryColor) 20%, transparent 20%),
+    radial-gradient(circle, var(--secondaryColor) 20%, transparent 20%),
+    radial-gradient(circle, var(--secondaryColor) 20%, transparent 20%);
+    background-size: 10% 10%, 20% 20%, 15% 15%, 20% 20%, 18% 18%, 10% 10%, 15% 15%,
+    10% 10%, 18% 18%;
+    animation: greentopBubbles ease-in-out 0.6s forwards infinite;
+}
+@keyframes greentopBubbles {
+    0% {
+    background-position: 5% 90%, 10% 90%, 10% 90%, 15% 90%, 25% 90%, 25% 90%,
+        40% 90%, 55% 90%, 70% 90%;
+    }
+    50% {
+    background-position: 0% 80%, 0% 20%, 10% 40%, 20% 0%, 30% 30%, 22% 50%,
+        50% 50%, 65% 20%, 90% 30%;
+    }
+    100% {
+    background-position: 0% 70%, 0% 10%, 10% 30%, 20% -10%, 30% 20%, 22% 40%,
+        50% 40%, 65% 10%, 90% 20%;
+    background-size: 0% 0%, 0% 0%, 0% 0%, 0% 0%, 0% 0%, 0% 0%;
+    }
+}
+.button.animate::after {
+    bottom: -70%;
+    background-image: radial-gradient(circle, var(--secondaryColor) 20%, transparent 20%),
+    radial-gradient(circle, var(--secondaryColor) 20%, transparent 20%),
+    radial-gradient(circle, transparent 10%, var(--secondaryColor) 15%, transparent 20%),
+    radial-gradient(circle, var(--secondaryColor) 20%, transparent 20%),
+    radial-gradient(circle, var(--secondaryColor) 20%, transparent 20%),
+    radial-gradient(circle, var(--secondaryColor) 20%, transparent 20%),
+    radial-gradient(circle, var(--secondaryColor) 20%, transparent 20%);
+    background-size: 15% 15%, 20% 20%, 18% 18%, 20% 20%, 15% 15%, 20% 20%, 18% 18%;
+    animation: greenbottomBubbles ease-in-out 0.6s forwards infinite;
+}
+@keyframes greenbottomBubbles {
+    0% {
+    background-position: 10% -10%, 30% 10%, 55% -10%, 70% -10%, 85% -10%,
+        70% -10%, 70% 0%;
+    }
+    50% {
+    background-position: 0% 80%, 20% 80%, 45% 60%, 60% 100%, 75% 70%, 95% 60%,
+        105% 0%;
+    }
+    100% {
+    background-position: 0% 90%, 20% 90%, 45% 70%, 60% 110%, 75% 80%, 95% 70%,
+        110% 10%;
+    background-size: 0% 0%, 0% 0%, 0% 0%, 0% 0%, 0% 0%, 0% 0%;
+    }
 }
