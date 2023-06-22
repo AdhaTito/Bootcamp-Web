@@ -1,0 +1,71 @@
+:root{
+    --mainColor : #9607C9;
+    --secondaryColor : #2756FE;
+    --asscenColor : #E0E2FA;
+    --default : #fff;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {  
+    background-color: var(--asscenColor);
+    min-height: 800px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.nav1 {
+    background : linear-gradient(to right, #2756FE 10%, #9607C9 );
+}
+
+.bg-hero{
+    background-image: url("../assets/images/bg-about1.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 800px;
+    min-height: 300px;
+}
+
+/* Second */
+#second {
+    min-height: 800px;
+    width: 100%;
+    /* height: 200px; */
+}
+
+.bg-second {
+    background: url('../assets/images/bgweb.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.card-about {
+    background: url('../assets/images/card-about.png');
+    background-repeat: no-repeat;
+    margin: auto;
+    width: 75%;
+    height: 600px;
+}
+.card-about i{
+    width: 300px;
+}
+
+/* contact */
+#contact {
+    min-height: 300px;
+    background-color: #4A4848;
+}
+
+/* footer */
+#footer{
+    min-height: 50px;
+    background-color: #000;
+    color: var(--mainColor);
+}
+
+#footer p a{
+    color: var(--secondaryColor);
+    text-decoration: none;
+}

@@ -19,13 +19,13 @@ body {
 
 /* Button 1*/
 
-#keahlian1 .btn {
+#fullstack .btn {
     background-color: var(--secondaryColor);
     border-radius: 10px;
     color: var(--default);
 }
 
-#keahlian1 .btn:hover {
+#fullstack .btn:hover {
     background-color: var(--default);
     border-color: var(--secondaryColor);
     color: var(--secondaryColor);
@@ -67,18 +67,18 @@ body {
 
 /* Navbar */
 .nav1 {
-    background : linear-gradient(to right, #9607C9 80%, #7A3AE0 );
+    background : linear-gradient(to right, #2756FE 10%, #9607C9 );
 }
 
 
-/* keahlian1 */
-#keahlian1 {
+/* fullstack */
+#fullstack {
     margin-top: 100px;
     min-height: 800px;
 }
 
 /* Card */
-#keahlian1 .rounded {
+#fullstack .rounded {
     border-bottom-right-radius: 200px !important;
 }
 
@@ -86,20 +86,26 @@ body {
     text-align: justify;
 }
 
-#keahlian1 .card{
-    background: linear-gradient(to right, #E0E2FA 80%, #fff );
+#fullstack .card {
+    background: transparent;
+    border: none !important;
 }
 
-#keahlian1 .card:hover {
+#fullstack .card video{
+    box-shadow: 2px 2px 10px rgba(0,0,0,0.8);;
+    background: transparent;
+}
+/* 
+#fullstack .card:hover {
     background: linear-gradient(to right, #9607C9 80%, #7A3AE0 );
     color: var(--default);
     border-radius: 10px;
     border-color: var(--secondaryColor);
-}
+} */
 
 /* Box1 */
 
-#keahlian1 .box1 {
+#fullstack .box1 {
     width: 1050px;
     height: 170px;
     margin-top: 100px;
@@ -115,29 +121,35 @@ body {
     width: 100%;
     min-height: 600px;
     background-color: var(--default);
-    border-top-left-radius: 80%;
+    border-top-left-radius: 70%;
     border-end-end-radius: 60%;
 }
 
 /* Card */
 #frontend .rounded {
-    border-top-right-radius: 250px !important;
+    border-top-right-radius: 200px !important;
 }
 
 .card-text {
     text-align: justify;
 }
 
-#frontend .card{
-    background: linear-gradient(to right, #E0E2FA 80%, #fff );
+#frontend .card {
+    background: transparent;
+    border: none !important;
 }
 
-#frontend .card:hover {
+#frontend .card video{
+    box-shadow: 2px 2px 10px rgb(102, 102, 242);;
+    background: transparent;
+}
+
+/* #frontend .card:hover {
     background: linear-gradient(to right, #9607C9 80%, #7A3AE0 );
     color: var(--default);
     border-radius: 10px;
     border-color: var(--secondaryColor);
-}
+} */
 
 /* Box1 */
 
@@ -169,16 +181,22 @@ body {
     text-align: justify;
 }
 
-#backend .card{
-    background: linear-gradient(to right, #E0E2FA 80%, #fff );
+#backend .card {
+    background: transparent;
+    border: none !important;
 }
 
-#backend .card:hover {
+#backend .card video{
+    box-shadow: 2px 2px 10px rgba(255, 255, 255, 0.8);;
+    background: transparent;
+}
+
+/* #backend .card:hover {
     background: linear-gradient(to right, #9607C9 80%, #7A3AE0 );
     color: var(--default);
     border-radius: 10px;
     border-color: var(--secondaryColor);
-}
+} */
 
 /* Box1 */
 
@@ -211,6 +229,26 @@ body {
     color: var(--secondaryColor);
     text-decoration: none;
 }
+
+/* Test */
+/* .number h6 {
+    background-repeat: no-repeat;
+    width: 110px;
+    height: 69px;
+    color: #fff;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 30px;
+    font-weight: 700;
+    text-align: center;
+    line-height: 69px;
+    margin-top: -65px;
+    margin-bottom: 30px;
+}
+
+.first-number h6 {
+    background-image: url(../assets/images/features-number-01.png);
+} */
 
 
 

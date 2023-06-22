@@ -19,9 +19,17 @@ body {
 
 /* Navbar */
 .nav1 {
-    background : linear-gradient(to right, #9607C9 80%, #7A3AE0 );
+    background : linear-gradient(to right, #2756FE 10%, #9607C9 );
 }
 
+.bg-hero{
+    background-image: url("../assets/images/bgweb.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 800px;
+    min-height: 300px;
+}
 
 /* Hero */
 #hero {
@@ -60,7 +68,7 @@ body {
 }
 
 .card:hover {
-    background: linear-gradient(to right, #9607C9 80%, #7A3AE0 );
+    background: linear-gradient(to right, #2756FE 10%, #9607C9  );
     color: var(--default);
 }
 
