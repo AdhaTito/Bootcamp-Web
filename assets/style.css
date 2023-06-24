@@ -64,14 +64,14 @@ body {
 .card {
     background-color: var(--default);
     min-height: 130px;
-    transition: background-color 0.3s ease;
+    transition:all .3s ease-in;
 }
 
 .card:hover {
-    background: linear-gradient(to right, #2756FE 10%, #9607C9  );
+    background: linear-gradient(to right, #2756FE 10%, #9607C9);
     color: var(--default);
+    transition: all .5 ease-out;
 }
-
 
 /* Company section */
 #company {

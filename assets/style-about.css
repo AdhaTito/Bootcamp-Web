@@ -63,10 +63,12 @@ body {
 .card-about {
     background: url('../assets/images/card-about.png');
     background-repeat: no-repeat;
+    background-size: cover;
     margin: auto;
-    width: 75%;
+    width: 90%;
     height: 600px;
 }
+
 .card-about i{
     width: 300px;
 }
