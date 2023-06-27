@@ -18,13 +18,16 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;500&family=Ubuntu:wght@300;400;700&display=swap"
         rel="stylesheet">
+    <!-- AOS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 
 <body>
     <div class="bg-hero">
         <!-- Navbar -->
         <div class="container sticky-top ">
-            <nav class="navbar navbar-dark navbar-expand-lg shadow rounded-2 nav1">
+            <nav class="navbar navbar-dark navbar-expand-lg shadow rounded-2 nav1" data-aos="fade-down"
+                data-aos-duration="900">
                 <div class="col-lg-10 col-sm-12">
                     <div class="nav justify-content-between ms-lg-5 ms-sm-4">
                         <a class="navbar-brand ms-4" href="#">
@@ -72,7 +75,7 @@
                     <div class="row text-white justify-content-center">
                         <div class="col-10">
                             <div class="row">
-                                <h1 class="fw-bold mt-5">Coding Bootcamp Pertama di Indonesia</h1>
+                                <h1 class="fw-bold mt-5" id="simpleUsage">Coding Bootcamp Pertama di Indonesia</h1>
                                 <div class="col-8">
                                     <h5 class="fw-light fs-5 mb-lg-5 mt-5">Camp Coding adalah coding bootcamp pertama di
                                         Indonesia
@@ -109,7 +112,7 @@
                         sangat penting.</p>
                 </div>
                 <div class="col-5">
-                    <div class="card1 mt-5">
+                    <div class="card1 mt-5" data-aos="fade-left" data-aos-duration="1000">
                         <img class="mt-5 ms-5 col-4" src="/assets/images/Logo CIRR.png" width="" alt="">
                         <img class="mt-4 ms-3 col-5" src="/assets/images/SAE.png" alt="">
                     </div>
@@ -128,40 +131,40 @@
                     <h1 class="fw-bold mt-5 mb-5 text-center">Belajar Coding yang Intensif</h1>
                     <div class="card-about">
                         <div class="row align-items-start">
-                            <div class="col mt-5 ms-5">
-                                <img src="/assets/images/icon1.png" alt="">
+                            <div class="col mt-5 ms-5" data-aos="flip-left" data-aos-duration="1000">
+                                <img src="/assets/images/icon1.png" alt="" >
                                 <h5 class="mt-4">Kurikulum Kebutuhan Industri</h5>
                                 <p class="fw-light">Materi dirancang sesuai dengan kompetensi di industri terkini.</p>
                             </div>
-                            <div class="col mt-5 ms-5">
-                                <img src="/assets/images/icon6.png" alt="">
+                            <div class="col mt-5 ms-5" data-aos="flip-left" data-aos-duration="1000">
+                                <img src="/assets/images/icon6.png" alt="" >
                                 <h5 class="mt-4">1-On-1 Mentoring</h5>
                                 <p class="fw-light mt-lg-4">Dibimbing langsung instruktur profesional dengan fasilitas
                                     1-on-1
                                     mentoring</p>
                             </div>
-                            <div class="col mt-5 ms-5">
-                                <img src="/assets/images/icon5.png" alt="">
+                            <div class="col mt-5 ms-5" data-aos="flip-left" data-aos-duration="1000">
+                                <img src="/assets/images/icon5.png" alt="" >
                                 <h5 class="mt-4">Growth Mindset</h5>
                                 <p class="fw-light">Sesi konsultasi pengembangan diri untuk mengembangkan soft skill.
                                 </p>
                             </div>
                         </div>
                         <div class="row align-items-center">
-                            <div class="col mt-5 ms-5">
-                                <img src="/assets/images/icon2.png" alt="">
+                            <div class="col mt-5 ms-5" data-aos="flip-left" data-aos-duration="1000">
+                                <img src="/assets/images/icon2.png" alt="" >
                                 <h5 class="mt-4">Dicarikan Kerja</h5>
                                 <p class="fw-light">Dibantu mendapatkan kerja setelah lulus di 800+ perusahaan Hiring
                                     Partners.</p>
                             </div>
-                            <div class="col mt-5 ms-5">
-                                <img src="/assets/images/icon4.png" alt="">
+                            <div class="col mt-5 ms-5" data-aos="flip-left" data-aos-duration="1000">
+                                <img src="/assets/images/icon4.png" alt="" >
                                 <h5 class="mt-4">Projek Portofolio</h5>
                                 <p class="fw-light">Membuat final projek berupa aplikasi web atau mobile untuk
                                     portofolio.</p>
                             </div>
-                            <div class="col mt-5 ms-5">
-                                <img src="/assets/images/icon3.png" alt="">
+                            <div class="col mt-5 ms-5" data-aos="flip-left" data-aos-duration="1000">
+                                <img src="/assets/images/icon3.png" alt="" >
                                 <h5 class="mt-4">Pelatihan Karir</h5>
                                 <p class="fw-light">Gratis pelatihan membuat CV dan interview, hingga konsultasi seputar
                                     pekerjaan.</p>
@@ -223,6 +226,22 @@
             </div>
         </div>
     </section>
+
+    <!-- Typing -->
+    <script src="https://unpkg.com/typeit@8.7.1/dist/index.umd.js"></script>
+    <script>
+        new TypeIt("#simpleUsage", {
+            // strings: "This is a simple string.",
+            speed: 50,
+            waitUntilVisible: true,
+        }).go();
+    </script>
+
+    <!-- AOS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 
     <!-- Icon -->
     <!-- <script src="https://kit.fontawesome.com/2fb6d88e90.js" crossorigin="anonymous"></script> -->

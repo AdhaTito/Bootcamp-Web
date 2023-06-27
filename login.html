@@ -70,12 +70,13 @@
     </div>
     <!-- End Navbar -->
 
-    <!-- Register -->
+    <!-- Login -->
     <section class="register d-flex">
         <!-- Start Left -->
         <div class="main-left bg-warning w-50 h-100">
             <div class="row justify-content-center text-white">
-                <div class="col-6">
+                <div class="col-6" data-aos="fade-up-right" data-aos-anchor="#example-anchor" data-aos-offset="500"
+                    data-aos-duration="1000">
                     <h1 class="mt-5 text-center fw-bold">Login</h1>
                     <form>
                         <div class="mb-3 mt-5">
@@ -132,7 +133,7 @@
                 <img src="/assets/images/ilustrasi 13.png" class="image img-fluid" alt="">
             </div>
             <div class="text-white">
-                <h1 class="fw-bold mt-5 ms-5">Pembelajaran yang Intesif</h1>
+                <h1 class="fw-bold mt-5 ms-5" id="simpleUsage">Pembelajaran yang Intesif</h1>
                 <div class="col-8">
                     <p class="ms-5 mt-4">Camp Coding sudah teruji menghasilkan para lulusan yang kompeten di industri
                         melalui
@@ -141,6 +142,16 @@
             </div>
         </div>
     </section>
+
+    <!-- Typing Js -->
+    <script src="https://unpkg.com/typeit@8.7.1/dist/index.umd.js"></script>
+    <script>
+        new TypeIt("#simpleUsage", {
+            // strings: "This is a simple string.",
+            speed: 50,
+            waitUntilVisible: true,
+        }).go();
+    </script>
 
     <!-- Js Bootstrap -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
