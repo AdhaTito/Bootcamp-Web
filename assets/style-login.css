@@ -1,0 +1,87 @@
+:root{
+    --mainColor : #9607C9;
+    --secondaryColor : #2756FE;
+    --asscenColor : #E0E2FA;
+    --default : #fff;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.btn1 {
+    width: 100%;
+    height: 40px;
+    border-radius: 5px;
+    border-width: 1px;
+    background : linear-gradient(to right, #9607C9 10%, #2756FE );
+    border-color: var(--default);
+    box-shadow: 1px 1px 1px #fff;
+    color: white;
+}
+
+.btn1:hover {
+    background : var(--asscenColor) !important;
+    color: var(--secondaryColor) !important;
+    border-color: var(--default);
+    box-shadow: 1px 1px 1px #000;
+}
+
+.btn2 {
+    width: 100%;
+    height: 40px;
+    border-radius: 5px;
+    border-width: 1px;
+    background : linear-gradient(to right, #9607C9 10%, #2756FE );
+    border-color: var(--default);
+    box-shadow: 1px 1px 1px #fff;
+    color: white;
+}
+
+.btn2:hover {
+    background : var(--asscenColor) !important;
+    color: var(--secondaryColor) !important;
+    border-color: var(--default);
+    box-shadow: 1px 1px 1px #000;
+}
+
+
+
+a {
+    color: var(--default);
+    text-decoration: none;
+}
+
+a:hover{
+    color: var(--mainColor);
+}
+
+/* Navbar */
+.nav1 {
+    background : linear-gradient(to right, #2756FE 10%, #9607C9 );
+}
+
+/* register */
+.register {
+    height: 92vh;
+}
+
+/* Left */
+.main-left {
+    background : linear-gradient(to bottom, #2756FE 50%, #fff )
+    
+}
+
+/* Right */
+.main-right {
+    background : linear-gradient(to bottom, #9607C9 20%, #fff )
+}
+
+.image {
+    width: 760px;
+    /* height: 760px; */
+}

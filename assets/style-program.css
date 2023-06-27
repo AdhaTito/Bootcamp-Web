@@ -17,6 +17,21 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 
+/* Button Registrasi */
+.regis {
+    background-color: var(--secondaryColor) !important;
+    border: none;
+    width: 90px;
+    height: 40px;
+    color: var(--default);
+}
+
+.regis:hover {
+    background-color: var(--default) !important;
+    color: var(--secondaryColor);
+    border-color: var(--secondaryColor);
+}
+
 /* Button 1*/
 
 #fullstack .btn {

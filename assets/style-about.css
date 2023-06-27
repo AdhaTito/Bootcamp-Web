@@ -19,6 +19,21 @@ body {
     background : linear-gradient(to right, #2756FE 10%, #9607C9 );
 }
 
+/* Button Registrasi */
+.regis {
+    background-color: var(--secondaryColor) !important;
+    border: none;
+    width: 90px;
+    height: 40px;
+    color: var(--default);
+}
+
+.regis:hover {
+    background-color: var(--default) !important;
+    color: var(--secondaryColor);
+    border-color: var(--secondaryColor);
+}
+
 .bg-hero{
     background-image: url("../assets/images/bg-about1.png");
     background-repeat: no-repeat;

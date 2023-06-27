@@ -17,9 +17,6 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;500&family=Ubuntu:wght@300;400;700&display=swap"
         rel="stylesheet">
-    <!-- Google Maps -->
-    <link rel="apple-touch-icon" href="img/apple-touch-icon.png">
-    <link rel="shortcut icon" type="image/x-icon" href="img/icon/favicon.ico">
     <!-- Place favicon.ico in the root directory -->
     <!-- all css here -->
     <link rel="stylesheet" href="style.css">
@@ -32,7 +29,7 @@
 <body background="/assets/images/bgweb.png">
     <!-- <div class="bg-hero"> -->
     <!-- Navbar -->
-    <div class="container sticky-top">
+    <div class="container sticky-top" data-aos="fade-down" data-aos-duration="900">
         <nav class="navbar navbar-dark navbar-expand-lg shadow rounded-2 nav1">
             <div class="col-lg-10 col-sm-12">
                 <div class="nav ms-lg-5 ms-sm-4">
@@ -59,8 +56,12 @@
                             <li class="nav-item ">
                                 <a class="nav-link " href="/location.html"> Location </a>
                             </li>
-                            <!-- <button type="button" class="btn btn-primary ms-2">Login</button>
-                            <button type="button" class="btn btn-outline-light ms-2">Daftar</button> -->
+                            <a href="/register.html">
+                                <button type="button" class="btn btn-primary ms-2 regis">Daftar</button>
+                            </a>
+                            <a href="/login.html">
+                                <button type="button" class="btn btn-outline-light ms-2 ">Login</button>
+                            </a>
                         </ul>
                     </div>
                 </div>
@@ -92,7 +93,7 @@
         </div>
         <div class="position-relative ">
             <div class="position-absolute bottom-0 end-0" data-aos="fade-up-left" data-aos-anchor="#example-anchor"
-                data-aos-offset="500" data-aos-duration="500">
+                data-aos-offset="500" data-aos-duration="1000">
                 <img src="/assets/images/hero.png" class="img-fluid" width="700px" alt="">
             </div>
         </div>
@@ -132,8 +133,8 @@
                                 <div class="col-sm-4 mt-4 mb-4">
                                     <div class="card mx-auto rounded-3 border-white" data-aos="fade-right"
                                         data-aos-duration="600">
-                                        <img class="d-flex position-absolute top-0 bottom-0" width="136px"
-                                            src="/assets/images/ilustrasi 13.png" alt="">
+                                        <img class="d-flex position-absolute top-0 bottom-0" width="150px"
+                                            src="/assets/images/ilustrasi 15.png" alt="">
                                         <div class="card-body ms-5 text-center">
                                             <h3 class="ms-5 fw-bold">Back End Developer</h3>
                                         </div>
@@ -156,18 +157,18 @@
                         <div class="text-center mt-5">
                             <h1 class="fw-bold mt-5 mb-5">Lulusan yang telah bekerja di</h1>
                             <div class="img-fluid col-lg-12 ">
-                                <img src="/assets/images/image 8.jpg" alt="">
-                                <img src="/assets/images/image 9.jpg" alt="">
-                                <img src="/assets/images/image 10.jpg" alt="">
-                                <img src="/assets/images/image 11.jpg" alt="">
-                                <img src="/assets/images/image 12.jpg" alt="">
-                                <img src="/assets/images/image 13.jpg" alt="">
-                                <img src="/assets/images/image 14.jpg" alt="">
-                                <img src="/assets/images/image 15.jpg" alt="">
-                                <img src="/assets/images/image 16.jpg" alt="">
-                                <img src="/assets/images/image 17.jpg" alt="">
-                                <img src="/assets/images/image 18.jpg" alt="">
-                                <img src="/assets/images/image 19.jpg" alt="">
+                                <img src="/assets/images/image 8.jpg" alt="" data-aos="flip-left" data-aos-duration="500">
+                                <img src="/assets/images/image 9.jpg" alt="" data-aos="flip-left" data-aos-duration="500">
+                                <img src="/assets/images/image 10.jpg" alt="" data-aos="flip-left" data-aos-duration="500">
+                                <img src="/assets/images/image 11.jpg" alt="" data-aos="flip-left" data-aos-duration="500">
+                                <img src="/assets/images/image 12.jpg" alt="" data-aos="flip-left" data-aos-duration="800">
+                                <img src="/assets/images/image 13.jpg" alt="" data-aos="flip-left" data-aos-duration="800">
+                                <img src="/assets/images/image 14.jpg" alt="" data-aos="flip-left" data-aos-duration="800">
+                                <img src="/assets/images/image 15.jpg" alt="" data-aos="flip-left" data-aos-duration="800">
+                                <img src="/assets/images/image 16.jpg" alt="" data-aos="flip-left" data-aos-duration="1000">
+                                <img src="/assets/images/image 17.jpg" alt="" data-aos="flip-left" data-aos-duration="1000">
+                                <img src="/assets/images/image 18.jpg" alt="" data-aos="flip-left" data-aos-duration="1000">
+                                <img src="/assets/images/image 19.jpg" alt="" data-aos="flip-left" data-aos-duration="1000">
                             </div>
                         </div>
                     </div>
@@ -342,21 +343,6 @@
     </section>
     <!-- End Conten -->
 
-    <!-- Map -->
-    <section id="map">
-        <div class="text-center ">
-            <div class="row justify-content-center">
-                <h1 class="mb-5 fw-bold">Bootcamp Location</h1>
-                <h3 class="text-primary mb-2"> <img src="/assets/images/gps.png" style="width: 2rem; " alt=""> Lokasi
-                    Berada di Lantai 4 Lippo Mall Kemang, Jakarta Selatan</h3>
-            </div>
-            <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.018767090281!2d106.81028507522811!3d-6.261257893727304!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f14d3d73e311%3A0x7b35536a57b28499!2sLippo%20Mall%20Kemang!5e0!3m2!1sid!2sid!4v1685527535420!5m2!1sid!2sid"
-                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
-                referrerpolicy="no-referrer-when-downgrade" class="map border border-5 mb-4"></iframe>
-        </div>
-    </section>
-    <!-- End Map -->
 
     <!-- Start FAQ -->
     <section id="FAQ">

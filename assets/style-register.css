@@ -1,0 +1,44 @@
+:root{
+    --mainColor : #9607C9;
+    --secondaryColor : #2756FE;
+    --asscenColor : #E0E2FA;
+    --default : #fff;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+button {
+    background : linear-gradient(to right, #2756FE 10%, #9607C9 );
+    box-shadow: 1px 1px 1px #000;
+}
+
+/* Navbar */
+.nav1 {
+    background : linear-gradient(to right, #2756FE 10%, #9607C9 );
+}
+
+/* register */
+.register {
+    height: 92vh;
+}
+
+/* Left */
+.main-left {
+    background : linear-gradient(to bottom, #9607C9 20%, #fff )
+}
+
+/* Right */
+.main-right {
+    background : linear-gradient(to bottom, #2756FE 50%, #fff )
+}
+
+.image {
+    width: 860px;
+    height: 550px;
+}
